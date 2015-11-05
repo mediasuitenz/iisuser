@@ -1,6 +1,8 @@
 # iisuser
 Middleware to parse the iis username from headers passed by iisnode and set on the request.
 
+[![Build Status](https://travis-ci.org/mediasuitenz/iisuser.svg)](https://travis-ci.org/mediasuitenz/iisuser)
+
 ## Installation
 
 ```

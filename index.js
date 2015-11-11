@@ -9,7 +9,7 @@ const debug = require('debug')('iisuser')
 module.exports = (options) => {
   let headersToCheck = [windowsAccount]
   options = merge({reqProperty: 'username'}, options)
-  debug(`Initializing 'iisuser' middleware with options: ${options}`)
+  debug(`Initializing 'iisuser' middleware with options: ${JSON.stringify(options)}`)
 
   return (req, res, next) => {
     if (!options.strict) headersToCheck = headersToCheck.concat(rawUserHeaders)

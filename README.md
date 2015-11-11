@@ -29,3 +29,12 @@ app.use(iisuser({
   removeDomain: false
 }))
 ```
+
+### Debugging
+
+iisuser can output debugging information if desired.
+To turn debugging on use the environment variable `DEBUG=iisuser`
+On windows this can be set from the console like so:
+```
+set DEBUG=iisuser
+```

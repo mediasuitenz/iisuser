@@ -1,6 +1,6 @@
 {
   "name": "iisuser",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Middleware to parse the iis username from headers passed by iisnode and set on the request",
   "main": "index.js",
   "dependencies": {

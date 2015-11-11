@@ -4,6 +4,7 @@
   "description": "Middleware to parse the iis username from headers passed by iisnode and set on the request",
   "main": "index.js",
   "dependencies": {
+    "debug": "^2.2.0",
     "merge": "^1.2.0"
   },
   "devDependencies": {
